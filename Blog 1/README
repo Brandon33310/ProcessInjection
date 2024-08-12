@@ -1,0 +1,10 @@
+# Process Injector Example
+
+This folder contains a simple example of process injection in Linux. The provided C code demonstrates how to inject a message into a running process using the `ptrace` system call.
+
+## Files
+- `injector.c` - The main C file containing the code for injecting a message into a target process.
+- `Makefile` - A simple Makefile to compile the injector program.
+
+## Usage
+1. Compile the injector program:
